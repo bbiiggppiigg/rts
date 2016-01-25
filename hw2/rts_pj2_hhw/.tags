@@ -1,0 +1,10 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Part I Weighted Round Robin Scheduling	/Users/bbiiggppiigg/Desktop/rts_pj2_ylc/rts_pj2.tex	/^\\maketitle$/;"	section	line:48
+Enqueue task	/Users/bbiiggppiigg/Desktop/rts_pj2_ylc/rts_pj2.tex	/^\\section*{Part I: Weighted Round Robin Scheduling}$/;"	subsubsection	line:50
+Pick next task	/Users/bbiiggppiigg/Desktop/rts_pj2_ylc/rts_pj2.tex	/^	Deleting a specify task T is done by calling \\verb|list_del(&T.list_head)|. This function removes T from the list by modifying \\verb|T.list_head|'s pointers and the pointers pointing to \\verb|T.list_head|. After removing T, decrease counter \\verb|weighted_rr_rq.nr_running| by one.$/;"	subsubsection	line:56
+Task tick	/Users/bbiiggppiigg/Desktop/rts_pj2_ylc/rts_pj2.tex	/^	This function is called when OS needs to select the next task to run. Since we want to implement a weighted round robin scheduler, this function should return the first element in \\verb|weighted_rr_rq|. We use \\verb|list_first_entry()| to retrieve the first element in run queue. Note that we should check if the queue is empty before trying to retrieve an entry. If \\verb|nr_running| equals 0, simply return \\verb|NULL|.$/;"	subsubsection	line:59

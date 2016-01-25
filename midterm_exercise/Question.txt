@@ -1,0 +1,3 @@
+Consider the service of a sporadic process with a hard deadline 10ms,
+the minimum separation time 100ms, and the worst-case execution
+time 3ms. Please define the period and computation time budget for a polling server, a deferrable server, and a sporadic server. Suppose the three servers could be of the highest priority in the system.
